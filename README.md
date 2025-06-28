@@ -1,31 +1,5 @@
-# 📦 Archiving unplugin-typia
-
-After two years of development and community support, I'm archiving this repository effective immediately.
-
-## 🎯 **TL;DR**
-This plugin will no longer be maintained. Feel free to fork if you need continued support.
-
-## 🔍 **Background**
-
-`unplugin-typia` was created to make [Typia](https://typia.io) integration easier across different bundlers like Vite, esbuild, Webpack, and others. It has served its purpose well, but several factors have led to this decision:
-
-**Technical considerations**: TypeScript's ongoing migration to [tsgo (TypeScript Native Port)](https://devblogs.microsoft.com/typescript/typescript-native-port/) introduces significant architectural changes. The new Go-based compiler uses IPC-based APIs rather than direct access to compiler internals, creating uncertainty around transformation tools like Typia and ts-patch that rely heavily on TypeScript's internal APIs.
-
-**Personal transition**: My focus has shifted to other projects and directions.
-
-## 🏆 **Adoption & Impact**
-
-I'm incredibly proud that this plugin found its way into many notable projects:
-
-- **[Hugging Face Inference Playground](https://github.com/huggingface/inference-playground)** - Interactive ML model playground
-- **[Wrtn Labs Agentica](https://github.com/wrtnlabs/agentica)** - AI agent framework
-- **[Wrtn Labs AutoView](https://github.com/wrtnlabs/autoview)** - Automated view generation
-- **[Typia Rspack Plugin](https://github.com/colinaaa/typia-rspack-plugin)** - Rspack integration inspired by this work
-- **[Hono Middleware](https://github.com/honojs/middleware)** - Web framework middleware collection
-- **[Lynx Stack](https://github.com/lynx-family/lynx-stack)** - Full-stack development framework
-- **[Arri](https://github.com/modiimedia/arri)** - Type-safe RPC framework
-
-The plugin has consistently maintained **22K+ weekly downloads** on npm, demonstrating real community value and adoption.
+## 🎯 **Revival?**
+I'm just using this for personal reasons. If there's a better way to do this tell me.
 
 ## 🧪 **Technical Status**
 
